@@ -10,7 +10,7 @@ function App() {
 
 	return (
 		<>
-			hello world
+			
 			<MainContent />
 			<BottomNavBar
 				value={navValue}
