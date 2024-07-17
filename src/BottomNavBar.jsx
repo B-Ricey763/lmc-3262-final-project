@@ -6,13 +6,17 @@ import NoteIcon from "@mui/icons-material/Note";
 import PhotoIcon from "@mui/icons-material/Photo";
 
 const BottomNavBar = ({ value, onChange }) => {
-	return (
-		<BottomNavigation value={value} onChange={onChange} showLabels>
-			<BottomNavigationAction label="Maps" icon={<MapIcon />} />
-			<BottomNavigationAction label="Notes" icon={<NoteIcon />} />
-			<BottomNavigationAction label="Photos" icon={<PhotoIcon />} />
-		</BottomNavigation>
-	);
+  return (
+    <BottomNavigation value={value} onChange={onChange} showLabels>
+      <BottomNavigationAction value="maps" label="Maps" icon={<MapIcon />} />
+      <BottomNavigationAction value="notes" label="Notes" icon={<NoteIcon />} />
+      <BottomNavigationAction
+        value="photos"
+        label="Photos"
+        icon={<PhotoIcon />}
+      />
+    </BottomNavigation>
+  );
 };
 
 export default BottomNavBar;
