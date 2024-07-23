@@ -3,6 +3,7 @@ export default [
     id: "note1",
     name: "NOAH CLICK ME",
     password: "",
+    date: "6/5/2005 at 20:38",
     content: `
 
 Heeeyyy Felix,

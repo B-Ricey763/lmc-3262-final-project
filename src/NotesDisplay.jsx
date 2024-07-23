@@ -1,4 +1,4 @@
-import { Description, Lock, LockOpen } from "@mui/icons-material";
+import { Lock, LockOpen } from "@mui/icons-material";
 import {
   Alert,
   Avatar,
@@ -8,7 +8,6 @@ import {
   DialogContent,
   DialogContentText,
   DialogTitle,
-  IconButton,
   List,
   ListItem,
   ListItemAvatar,
@@ -17,8 +16,8 @@ import {
   Snackbar,
   TextField,
 } from "@mui/material";
-import notes from "./Notes";
 import React, { useEffect, useState } from "react";
+import notes from "./Notes";
 
 function PasswordDialog(props) {
   const { onClose, open, setOpen, currentNote, unlockNote } = props;
@@ -161,7 +160,7 @@ function Notes({ unlockedNoteIds, setUnlockedNoteIds }) {
                 )}
               </Avatar>
             </ListItemAvatar>
-            <ListItemText primary={item.name} />
+            <ListItemText primary={item.name} secondary={item.date} />
           </ListItem>
         ))}
       </List>
