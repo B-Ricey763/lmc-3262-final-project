@@ -1,6 +1,7 @@
 import * as React from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import { ImageListItemBar } from "@mui/material";
 
 function StandardImageList() {
   return (
@@ -13,6 +14,7 @@ function StandardImageList() {
             alt={item.title}
             loading="lazy"
           />
+          <ImageListItemBar title={"TEst datee"} position="top" />
         </ImageListItem>
       ))}
     </ImageList>

@@ -1,4 +1,4 @@
-import { Description } from "@mui/icons-material";
+import { Description, Lock, LockOpen } from "@mui/icons-material";
 import {
   Alert,
   Avatar,
@@ -95,7 +95,9 @@ function NoteDialog({ note, open, onClose }) {
     <Dialog open={open} onClose={onClose}>
       <DialogTitle>{note.name}</DialogTitle>
       <DialogContent>
-        <DialogContentText>{note.content}</DialogContentText>
+        <DialogContentText style={{ whiteSpace: "pre-wrap" }}>
+          {note.content}
+        </DialogContentText>
       </DialogContent>
       <DialogActions>
         <Button variant="contained" color="error" onClick={() => onClose()}>
@@ -113,7 +115,7 @@ function Notes({ unlockedNoteIds, setUnlockedNoteIds }) {
 
   const tryOpenNote = (note) => {
     setCurrentNote(note);
-    if (unlockedNoteIds.includes(note.id)) {
+    if (unlockedNoteIds.includes(note.id) || note.password === "") {
       setNoteOpen(true);
     } else {
       setPasswordOpen(true);
@@ -152,7 +154,11 @@ function Notes({ unlockedNoteIds, setUnlockedNoteIds }) {
           >
             <ListItemAvatar>
               <Avatar>
-                <Description />
+                {unlockedNoteIds.includes(item.id) || item.password === "" ? (
+                  <LockOpen />
+                ) : (
+                  <Lock />
+                )}
               </Avatar>
             </ListItemAvatar>
             <ListItemText primary={item.name} />
