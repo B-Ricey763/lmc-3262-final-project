@@ -119,7 +119,7 @@ This is the ENDDDD!! uu made it. Headdd to the churrch Marienkirche nearr da dri
 
 Time to reflect. I hope you didn't get too frustrated by my puzzles. Here, take a moment. The quiet of the church surrounds you. Do you even remember what you said to me last night? Probably not. Just think about next time you insult a friend; I was really hurt. Probably shouldnttt of stolenn urr wallet...
 
-yeahh uh aboutt that... it felll inta ta collectorrs binn .. okk good nigghhht :)))
+yeahh uh aboutt that... it felll inta ta donation boxx .. okk good nigghhht :)))
 pay ya bak later.. 1 millin beers :)
 `,
   },
