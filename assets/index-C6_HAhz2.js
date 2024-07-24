@@ -189,7 +189,7 @@ NOW 5% hELP!!
 `},{id:"note7",name:"the FINAL countdown",password:"1390",date:"07/26/24 4:30",content:`
 so u see ive been clever... battery % is special, whats the letters that are lower? shove em together and teh answer reveals, the spot where wwe can finnally heall-- wholly holy. hope u learnin. patience and kindness... or not,atp imm soo gonne
 `},{id:"note8",name:"THE spot.. a new beginin",password:"church",date:"07/26/24 5:00",content:`
-This is the ENDDDD!! uu made it.
+This is the ENDDDD!! uu made it. Headdd to the churrch Marienkirche nearr da drilla!!
 
 Time to reflect. I hope you didn't get too frustrated by my puzzles. Here, take a moment. The quiet of the church surrounds you. Do you even remember what you said to me last night? Probably not. Just think about next time you insult a friend; I was really hurt. Probably shouldnttt of stolenn urr wallet...
 
