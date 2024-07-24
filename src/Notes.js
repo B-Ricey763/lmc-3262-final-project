@@ -115,7 +115,7 @@ so u see ive been clever... battery % is special, whats the letters that are low
     password: "church",
     date: "07/26/24 5:00",
     content: `
-This is the ENDDDD!! uu made it.
+This is the ENDDDD!! uu made it. Headdd to the churrch Marienkirche nearr da drilla!!
 
 Time to reflect. I hope you didn't get too frustrated by my puzzles. Here, take a moment. The quiet of the church surrounds you. Do you even remember what you said to me last night? Probably not. Just think about next time you insult a friend; I was really hurt. Probably shouldnttt of stolenn urr wallet...
 
