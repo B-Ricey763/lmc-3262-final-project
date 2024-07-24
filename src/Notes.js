@@ -6,7 +6,7 @@ export default [
     date: "07/26/24 11:00",
     content: `
 Ok, I just woke up, and I don't remember what happened. All I have are some notes from Felix and 
-what's app messages with Roxanne (but she didn't go out with us last night), the message screenshots are in my photos I think? I think Felix left some messages??
+I've been talking through the entire situation with Roxanne on what's app (but she didn't go out with us last night), the message screenshots are in my photos I think? I think Felix left some messages??
 
 I don't know what's going on.... wait. WAIT. WHERE IS MY WALLET???
 `,
