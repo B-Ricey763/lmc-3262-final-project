@@ -56,7 +56,7 @@ function PasswordDialog(props) {
             autoFocus
             id="password"
             name="password"
-            label={`Password (${currentNote.password.length} characters)`}
+            label={`Password (${currentNote.password !== undefined ? currentNote.password.length : 0} characters)`}
             type="password"
             fullWidth
             variant="standard"
