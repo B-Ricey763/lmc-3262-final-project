@@ -1,8 +1,5 @@
-# React + Vite
+# The Hangover: Berlin Edition
+GA Tech Study Abroad LMC 3262 Final Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For the whiteboard and background resources, check out the `assets` folder. 
+The code is a react app published to [https://b-ricey763.github.io/lmc-3262-final-project/](https://b-ricey763.github.io/lmc-3262-final-project/). 
